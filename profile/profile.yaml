@@ -1,0 +1,56 @@
+name: "Miguel Dario"
+
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_MiguelDario
+
+summary: My name is Miguel Dario, and I Graduated from the Business Technology Management program at Ryerson University, where I was exposed to fields such as data analytics, project management, and networking. I have previously worked as an intern for Manawa Networks where I developed strong client management skills through providing IT solutions. In the same job, I was responsible for documenting various IT systems and standards. I have a passion for technology and enjoy learning about new technologies and how to make sense of it. I also enjoy interacting with a wide range of clients, learning about their business problems, and providing solutions to those through technology. I believe that these combined make me a great fit for a Business Systems Analyst role. 
+
+skills:
+
+Business Skills:
+
+- Documentation
+- Client Management
+- Presentation
+- Requirement Elicitation
+- Agile/Scrum
+
+Technical Skills:
+
+- Data Analytics
+- SQL/Relational Databases
+- Git/Github
+- Microsoft Windows
+- Microsoft Excel (Pivot Tables/Formulas)
+- Linux
+- Tableau
+- Python
+- R
+
+Jarvis Projects:
+
+name: Linux Cluster Monitor
+
+Description: Designed and Implemented a resource monitoring system that records hardware specifications, and resource usage in real time, and store in a PostgreSQL RDBMS,
+
+
+name: Python Data Analytics
+
+
+Professional Experience:
+
+title: Technology Alignment Intern
+company: Manawa Networks
+duration: Sep 2021 - Jan 2022
+description: Documented IT systems and standards for over 25 clients across various industries, Attended regular inter-department meetings to review current company standards, and suggest improvements in IT processes. Developed project management, and leadership skills through leading a project to migrate over 120 users to 2-factor authentication. 
+
+Education:
+
+-School name: Ryerson University
+Duration: Sep 2019 - Jun 2021
+Degree: Business Technology Management
+Department: Ted Rogers School of Management
+
+-School name: Seneca College
+Duration: Sep 2016 - Aug 2019
+Degree: Business Administration and Management
+Department: School of Business    
