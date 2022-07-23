@@ -7,11 +7,12 @@ CREATE TABLE IF NOT EXISTS PUBLIC.host_info (
     cpu_mhz INT NOT NULL,
     l2_cache INT NOT NULL,
     total_mem INT NOT NULL,
-    timestamp TIMESTAMP NOT NULL
+    "timestamp" TIMESTAMP NOT NULL
 );
 
 
 CREATE TABLE IF NOT EXISTS PUBLIC.host_usage (
+    "timestamp" TIMESTAMP NOT NULL,
     host_id SERIAL NOT NULL,
     memory_free INT NOT NULL,
     cpu_idle INT NOT NULL,
