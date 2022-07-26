@@ -26,7 +26,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MiguelDari
 
 ## Professional Experiences
 
-**Technology Alignment Intern, Manawa Networks (Sep 2021 - Jan 2022)**: : Documented IT systems and standards for over 25 clients across various industries, Attended regular inter-department meetings with internal, and external stakeholders to review current company standards, and suggest improvements in IT processes. Developed project management, and leadership skills through leading a project to migrate over 120 users to 2-factor authentication. Demonstrated problem-solving skills by providing technical assistance, and support by phone to end users in a friendly, and professional manner.
+**Technology Alignment Intern, Manawa Networks (Sep 2021 - Jan 2022)**: Documented IT systems and standards for over 25 clients across various industries, Attended regular inter-department meetings with internal, and external stakeholders to review current company standards, and suggest improvements in IT processes. Developed project management, and leadership skills through leading a project to migrate over 120 users to 2-factor authentication. Demonstrated problem-solving skills by providing technical assistance, and support by phone to end users in a friendly, and professional manner.
 
 
 ## Education
