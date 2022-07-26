@@ -4,33 +4,29 @@ My name is Miguel Dario, and I Graduated from the Business Technology Management
 
 ## Skills
 
-**Business Skills:** Documentation, Client Management, Presentation, Requirements Elicitation, Agile/Scrum
+**Business Skills:** Documentation, Stakeholder Management, Presentation, Requirements Elicitation, Agile/Scrum, Leadership, Project Management, Time Management, Problem Solving, Communication
 
-**Technical Skills:** Data Analytics, RDMBS/SQL, Git/Github, Microsoft Windows, Microsoft Excel (Pivot Tables/Formulas), Linux, Tableau, Python, R
+**Technical Skills:** Data Analytics with Python, Tableau, and R, RDMBS/SQL, Git/Github, Google Workspace, Microsoft Windows, Microsoft Word, Microsoft PowerPoint, Microsoft Excel (Pivot Tables/Formulas), Linux/Bash, Microsoft Visio, UML, BPMN
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MiguelDario](https://github.com/jarviscanada/jarvis_data_eng_MiguelDario)
 
 
-**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MiguelDario/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MiguelDario/tree/main/linux_sql)]: Designed and Implemented a resource monitoring system that records hardware specifications, and resource usage in real time, and store in a PostgreSQL RDBMS.
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MiguelDario/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MiguelDario/tree/master/hadoop)]: Not Started
+**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MiguelDario/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MiguelDario/tree/main/linux_sql)]: Elicited requirements for a Linux Cluster Resource monitoring system based on  for stakeholders such as the admin team, Support Team, and Implementation team. The purpose of the system is to collect hardware information and store it for future planning purposes .Requirements include an agent to collect hardware information, and monitor hardware usage every minute, and an SQL database to store the collected information. The implementation consists of bash scripts for hardware collection, and a PostgreSQL database to store the information.
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Business Intelligence and Analytics Final Course project**: Utilized R to analyze a dataset for a fictitious Portuguese bank to predict whether a client will subscribe to a term deposit. Explored the data by plotting graphs representing customer age, and contact duration distribution. Analyzed the dataset using K nearest, and decision trees. Wrote a report outlining, the project objective, learning methods used, and findings in the data. Presented to the class using Google Slides.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Big Data Analytics Final Course project**: Utilized Python (pandas, numpy, seaborn) to analyze a dataset of Mashable articles to predict the popularity of an article based on the number of shares on social media, and an online shopping dataset to predict if a user will end up buying something. Explored data splitting the data into training, and test datasets, and removing any blank rows. Implemented using k-nearest neighbour, decision trees, and support vector machine. Wrote a report outlining, the project objective, learning methods used, and findings in the data. Presented to the class using Google Slides.
+
+**On-boarding process documentation**: Documentation of Manawa Networks' on-boarding process. The basic process consists of configuring up a new or existing workstation for an employee, creating their accounts in Microsoft 365, and the Active Directory, downloading requested applications, and shipping the workstation. Gathered requirements from Director of Technology Success. The main requirement of this document was for it to be written in such a way that anyone can understand and follow instructions without any help.
 
 
 ## Professional Experiences
 
-**Technology Alignment Intern, Manawa Networks (Sep 2021 - Jan 2022)**: : Documented IT systems and standards for over 25 clients across various industries, Attended regular inter-department meetings to review current company standards, and suggest improvements in IT processes. Developed project management, and leadership skills through leading a project to migrate over 120 users to 2-factor authentication.
-
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Technology Alignment Intern, Manawa Networks (Sep 2021 - Jan 2022)**: : Documented IT systems and standards for over 25 clients across various industries, Attended regular inter-department meetings with internal, and external stakeholders to review current company standards, and suggest improvements in IT processes. Developed project management, and leadership skills through leading a project to migrate over 120 users to 2-factor authentication. Demonstrated problem-solving skills by providing technical assistance, and support by phone to end users in a friendly, and professional manner.
 
 
 ## Education
@@ -40,8 +36,10 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MiguelDari
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player; joined xyz club
-- Competitive gaming; compete for xyz
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Python Bootcamp, Ryerosn University (2020)
+- Tableau Bootcamp, Ryerson University (2020)
+- R Bootcamp, Ryerson University (2020)
+- Power of Excel Bootcamp, Ryerson University (2020)
+- Video Games (Rainbow 6 Siege)
+- Computers (Hardware, Software)
+- Travelling, been to 8 countries

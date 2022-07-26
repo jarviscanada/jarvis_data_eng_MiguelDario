@@ -18,52 +18,41 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_MiguelDario",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Utilized R to analyze a dataset for a fictitious Portuguese bank to predict whether a client will subscribe to a term deposit. Explored the data by plotting graphs representing customer age, and contact duration distribution. Analyzed the dataset using K nearest, and decision trees. Wrote a report outlining, the project objective, learning methods used, and findings in the data. Presented to the class using Google Slides.",
+      "name": "Business Intelligence and Analytics Final Course project"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Utilized Python (pandas, numpy, seaborn) to analyze a dataset of Mashable articles to predict the popularity of an article based on the number of shares on social media, and an online shopping dataset to predict if a user will end up buying something. Explored data splitting the data into training, and test datasets, and removing any blank rows. Implemented using k-nearest neighbour, decision trees, and support vector machine. Wrote a report outlining, the project objective, learning methods used, and findings in the data. Presented to the class using Google Slides.",
+      "name": "Big Data Analytics Final Course project"
+    },
+    {
+      "description": "Documentation of Manawa Networks' on-boarding process. The basic process consists of configuring up a new or existing workstation for an employee, creating their accounts in Microsoft 365, and the Active Directory, downloading requested applications, and shipping the workstation. Gathered requirements from Director of Technology Success. The main requirement of this document was for it to be written in such a way that anyone can understand and follow instructions without any help.",
+      "name": "On-boarding process documentation"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Designed and Implemented a resource monitoring system that records hardware specifications, and resource usage in real time, and store in a PostgreSQL RDBMS.",
+      "description": "Elicited requirements for a Linux Cluster Resource monitoring system based on  for stakeholders such as the admin team, Support Team, and Implementation team. The purpose of the system is to collect hardware information and store it for future planning purposes .Requirements include an agent to collect hardware information, and monitor hardware usage every minute, and an SQL database to store the collected information. The implementation consists of bash scripts for hardware collection, and a PostgreSQL database to store the information.",
       "git_url": "https://github.com/jarviscanada/jarvis_data_eng_MiguelDario/tree/main/linux_sql",
       "name": "Linux Cluster Resource Monitoring App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
     }
   ],
   "name": "Miguel Dario",
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
+        "Python Bootcamp, Ryerosn University (2020)",
+        "Tableau Bootcamp, Ryerson University (2020)",
+        "R Bootcamp, Ryerson University (2020)",
+        "Power of Excel Bootcamp, Ryerson University (2020)"
       ],
       "title": "Certificates"
     },
     {
       "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player; joined xyz club",
-        "Competitive gaming; compete for xyz",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "Video Games (Rainbow 6 Siege)",
+        "Computers (Hardware, Software)",
+        "Travelling, been to 8 countries"
       ],
       "title": "Activities/Hobbies"
     }
@@ -71,35 +60,37 @@
   "professional_experience": [
     {
       "company": "Manawa Networks",
-      "description": ": Documented IT systems and standards for over 25 clients across various industries, Attended regular inter-department meetings to review current company standards, and suggest improvements in IT processes. Developed project management, and leadership skills through leading a project to migrate over 120 users to 2-factor authentication.",
+      "description": ": Documented IT systems and standards for over 25 clients across various industries, Attended regular inter-department meetings with internal, and external stakeholders to review current company standards, and suggest improvements in IT processes. Developed project management, and leadership skills through leading a project to migrate over 120 users to 2-factor authentication. Demonstrated problem-solving skills by providing technical assistance, and support by phone to end users in a friendly, and professional manner.",
       "duration": "Sep 2021 - Jan 2022",
       "title": "Technology Alignment Intern"
-    },
-    {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
     }
   ],
   "skills": {
     "Business Skills": [
       "Documentation",
-      "Client Management",
+      "Stakeholder Management",
       "Presentation",
       "Requirements Elicitation",
-      "Agile/Scrum"
+      "Agile/Scrum",
+      "Leadership",
+      "Project Management",
+      "Time Management",
+      "Problem Solving",
+      "Communication"
     ],
     "Technical Skills": [
-      "Data Analytics",
+      "Data Analytics with Python, Tableau, and R",
       "RDMBS/SQL",
       "Git/Github",
+      "Google Workspace",
       "Microsoft Windows",
+      "Microsoft Word",
+      "Microsoft PowerPoint",
       "Microsoft Excel (Pivot Tables/Formulas)",
-      "Linux",
-      "Tableau",
-      "Python",
-      "R"
+      "Linux/Bash",
+      "Microsoft Visio",
+      "UML",
+      "BPMN"
     ]
   },
   "summary": "My name is Miguel Dario, and I Graduated from the Business Technology Management program at Ryerson University, where I was exposed to fields such as data analytics, project management, and networking. I have previously worked as an intern for Manawa Networks where I developed strong client management skills through providing IT solutions. In the same job, I was responsible for documenting various IT systems and standards. I have a passion for technology and enjoy learning about new technologies and how to make sense of it. I also enjoy interacting with a wide range of clients, learning about their business problems, and providing solutions to those through technology. I believe that these combined make me a great fit for a Business Systems Analyst role."
