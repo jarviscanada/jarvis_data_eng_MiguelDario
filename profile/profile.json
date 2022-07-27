@@ -32,7 +32,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Elicited requirements for a Linux Cluster Resource monitoring system based on  for stakeholders such as the admin team, Support Team, and Implementation team. The purpose of the system is to collect hardware information and store it for future planning purposes .Requirements include an agent to collect hardware information, and monitor hardware usage every minute, and an SQL database to store the collected information. The implementation consists of bash scripts for hardware collection, and a PostgreSQL database to store the information.",
+      "description": "Elicited requirements for a Linux Cluster Resource monitoring by meeting stakeholders such as the Cluster Administration team, Support Team, and Implementation team. Prepared a systems requirement document outlining the project scope, functional, and non-functional requirements, and data modelling to be used by the solution designer. Visualized the system architecture using draw.io The purpose of the system is to collect hardware information, and usage of each host and store it in an RDBMS for future planning purposes. The implementation consists of a monitoring agent with two bash scripts. One to collect hardware information, and another to monitor hardware usage every minute which will be automated using crontab. A PostgreSQL instance provisioned with Docker will be used to store the information.",
       "git_url": "https://github.com/jarviscanada/jarvis_data_eng_MiguelDario/tree/main/linux_sql",
       "name": "Linux Cluster Resource Monitoring App"
     }
@@ -90,8 +90,9 @@
       "Linux/Bash",
       "Microsoft Visio",
       "UML",
-      "BPMN"
+      "BPMN",
+      "Google Cloud Platform"
     ]
   },
-  "summary": "My name is Miguel Dario, and I Graduated from the Business Technology Management program at Ryerson University, where I was exposed to fields such as data analytics, project management, and networking. I have previously worked as an intern for Manawa Networks where I developed strong client management skills through providing IT solutions. In the same job, I was responsible for documenting various IT systems and standards. I have a passion for technology and enjoy learning about new technologies and how to make sense of it. I also enjoy interacting with a wide range of clients, learning about their business problems, and providing solutions to those through technology. I believe that these combined make me a great fit for a Business Systems Analyst role."
+  "summary": "My name is Miguel Dario, and I Graduated from the Business Technology Management program at Ryerson University, where I was exposed to fields such as data analytics, project management, and networking. I have previously worked as an intern for Manawa Networks where I developed strong stakeholder management skills through regularly meeting with clients to discuss gaps in their IT processes and how they can be improved using Manawa's IT solutions. In the same job, I was responsible for documenting various IT systems and standards. I have a passion for technology and enjoy learning about new technologies and how to make sense of it. I also enjoy interacting with a wide range of clients, learning about their business problems, and providing solutions to those through technology. I believe that these combined make me a great fit for a Business Systems Analyst role."
 }
