@@ -19,7 +19,7 @@ $$
 
 SELECT host_id, hostname, round5(host_usage.timestamp) AS round_timestamp, ROUND((AVG((total_mem/1000) - memory_free) / (total_mem/1000))*100, 2) AS avg_used_mem_percentage
 FROM host_usage JOIN host_info hi on host_usage.host_id = hi.id
-GROUP BY round_timestamp, host_id, hostname, memory_free, total_mem
+GROUP BY round_timestamp, host_id, hostname, total_mem
 ORDER BY round_timestamp ASC;
 
 -- Question 3: Detect host failure
