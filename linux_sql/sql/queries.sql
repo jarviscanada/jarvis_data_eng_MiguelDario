@@ -26,6 +26,7 @@ ORDER BY round_timestamp ASC;
 
 SELECT host_id, round5(timestamp) AS ts, COUNT(*) AS num_data_points
 FROM host_usage
-GROUP BY host_id, timestamp
+GROUP BY ts, host_id
 HAVING COUNT(*) < 3
-ORDER BY timestamp;
+ORDER BY ts;
+
