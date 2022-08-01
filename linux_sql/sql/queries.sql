@@ -22,5 +22,10 @@ FROM host_usage JOIN host_info hi on host_usage.host_id = hi.id
 GROUP BY round_timestamp, host_id, hostname, memory_free, total_mem
 ORDER BY round_timestamp ASC;
 
+-- Question 3: Detect host failure
 
-
+SELECT host_id, round5(timestamp) AS ts, COUNT(*) AS num_data_points
+FROM host_usage
+GROUP BY host_id, timestamp
+HAVING COUNT(*) < 3
+ORDER BY timestamp;
