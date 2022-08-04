@@ -2,9 +2,9 @@
 This project is under development. Since this project follows the GitFlow, the final work will be merged to the main branch after Team Code Team.
 
 # Introduction
-The purpose of the Linux Cluster Monitoring Agent is to assist the Jarvis Linux Cluster Administration team in efficiently managing their assigned Linux cluster, and plan for future changes. To accomplish this, the agent collects, and monitors the hardware of each host in the Linux cluster, and stores the collected information in a containerized relational database. The minimum viable product consists of various bash scripts to start, and stop the container, collect the hardware specifications of each host to be ran once upon installation, and collect hardware usage every minute. The information will be stored in a PostgreSQL database inside a docker container. Pre-made SQL queries are included to answer common business questions such as detecting when the agent has failed. the collected information will be used by the Cluster Administration team to gather insights on the state of the Linux cluster as a whole, and can be used to write reports, and other documents than will be of interest to the LCA manager.
+The purpose of the Linux Cluster Monitoring Agent is to assist the Jarvis Linux Cluster Administration team in efficiently managing their assigned Linux cluster, and plan for future changes. To accomplish this, the agent collects and monitors the hardware of each host in the Linux cluster and stores the collected information in a containerized relational database. The minimum viable product consists of various bash scripts to start, and stop the container, collect the hardware specifications of each host to be run once upon installation, and collect hardware usage every minute. The information will be stored in a PostgreSQL database inside a docker container. Pre-made SQL queries are included to answer common business questions. The collected information will be used by the Cluster Administration team to gather insights on the state of the Linux cluster as a whole, and can be used to write reports, and other documents that will be of interest to the LCA manager.
 
-The following technologies were used in the product product:
+The following technologies were used in the product:
 - Linux 
 - Google Cloud Platform 
 - Bash scripts 
@@ -42,12 +42,12 @@ crontab -e # Edit crontab jobs
 ```
 
 # Implemenation
-To implement the project, Linux hosts, using the CentOS distribution were comissioned using Google Cloud Platform. Bash scripts are used to collect hardware information, and usage of each node. For each bash script, hardware information is extracted using commands like `lscpu` and `vmstat` and individual attributes such as total memory are further parsed from the output using `grep` and `awk`. A PostgreSQL database in a Docker container stores all the collected information.
+To implement the project, Linux virtual machines, using the CentOS distribution were comissioned using Google Cloud Platform. Bash scripts are used to collect hardware information, and usage of each node. For each bash script, hardware information is extracted using commands like `lscpu` and `vmstat` and individual attributes such as total memory are further parsed from the output using `grep` and `awk`. A PostgreSQL database in a Docker container stores all the collected information.
 ## Architecture
 ![System Architecture](assets/architecture.jpg)
 
 ## Scripts
-Shell script description and usage (use markdown code block for script usage)
+Here are the descriptions of each shell script, and how to use them:
 - `psql_docker.sh`: Creates, stops, or starts a docker container depending on the arguments used.
 ```
 #Create a psql docker container. If a container already exists, or a username and password are not given, prints an error messgage
@@ -70,7 +70,7 @@ scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
 ```
 - `crontab`: Automates the host_usage script to run every minute
 - `queries.sql`: Helps solve the followjng business cases:
-    - Group hosts by number of CPUs
+    - Group hosts by number of CPUs, and sort by memory size in descending order
     - Average memory usage in 5 minute intervals for each host
     - Detect host failure. A failure is defined as less than 3 data points inserted in a 5 minute interval.
 
@@ -104,14 +104,14 @@ The PostgreSQl database consists of two tables: host_info, and host_usage. The d
 # Test
 When testing the bash scripts, I used the -x argument at the end of each script to ensure that the scripts were able to capture each argument, and variable properly. To test if the error messages of each script were working as intended, I ran each script with fewer or more arguments than what is specified. Since extracting variables involved chaining multiple commands together, I ran each chain of commands in isolation as running everything at once would be more cumbersome to debug. Finally, I manually ran each script first before automating them.
 
-For the SQL queries, I inserted test data directly from the psql instance.
+For the SQL queries, I inserted test data directly from the psql instance to test if the constraints of each column were working as intended. When looking at the average memory usage, I first wrote a query that displayed the total memory, and memory free, alongside the average memory and did the math manually to make sure the calculation made sense.
+
+All scripts and queries were tested using IntelliJ Idea, and were able to function as planned.
 
 # Deployment
-The system will be hosted on Github. 
+The source code can be found in a GitHub repository, and can be used to view, and comment on changes in the code. The collected data is stored in a PostgreSQL database deployed using a Docker container.
 
 # Improvements
-Write at least three things you want to improve 
-e.g. 
-- handle hardware update 
-- blah
-- blah
+- Writing the bash scripts in a more efficient way
+- A graph the visualize the data
+- SQL queries to detect when hardware usage is high
