@@ -51,11 +51,11 @@ jarvis_projects:
     # Focus on BSA work instead of development work
     # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
     description: Elicited requirements for a Linux Cluster Resource monitoring by meeting stakeholders such as the Cluster Administration team, Support Team, and Implementation team. Prepared a systems requirement document outlining the project scope, functional, and non-functional requirements, and data modelling to be used by the solution designer. Visualized the system architecture using draw.io The purpose of the system is to collect hardware information, and usage of each host and store it in an RDBMS for future planning purposes. The implementation consists of a monitoring agent with two bash scripts. One to collect hardware information, and another to monitor hardware usage every minute which will be automated using crontab. A PostgreSQL instance provisioned with Docker will be used to store the information.
-#  - name: "Python Data Analytics"
-#    git_url: "/python_data_anlytics"
+  - name: "Python Data Analytics"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_MiguelDario/tree/develop/python_data_analytics"
 #    # Focus on BSA work instead of development work
 #    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
-#    description: ""
+    description: Partnered with London Gift Shop (LGS) to address stagnant wage growth from LGS in recent years. Requirements include a proof-of-concept analytics solution that will analyze customer shopping behaviour. Analyzed using Python, along with libraries such as Pandas, NumPy, SQLAlchemy and Matplotlib. Visualized the analysis using Jupyter Notebook. Data used for the project is sourced from a LGS' Azure SQL Server, and will be dumped into Jarvis' PostgreSQL data warehouse. The Jupyter Notebook and database are Dockerized. The analysis will be used by LGS' marketing team to create new marketing campaigns, and attract new customers.
 #  - name: "Hadoop"
 #    git_url: "/hadoop"
 #    description: ""
