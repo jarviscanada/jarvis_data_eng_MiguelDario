@@ -1,5 +1,5 @@
 # Introduction
-The purpose of this project is to evaluate the performance of various components of Apache Hadoop such as MapReduce, YARN, and Hive when analyzing big data. The Hadoop clusters were provisioned using Google Cloud Platform and contains a master node, and 2 data nodes. The dataset being analyzed is from the World Bank that describes various country indicators. The file size is around 2.2GB, and there are around 22 million rows of data. Because of the file size, it is optimal to analyze the data using software such as Hadoop rather than Python or R.
+The purpose of this project is to evaluate the performance of various components of Apache Hadoop such as MapReduce, YARN, and Hive when analyzing big data. The Hadoop clusters were provisioned using Google Cloud Platform and contains a master node, and 2 data nodes. The dataset being analyzed is from the World Bank that describes various country indicators, and the year it was achieved. The file size is around 2.2GB, and there are around 22 million rows of data. Because of the file size, it is optimal to analyze the data using software such as Hadoop rather than Python, SAP, or R.
 # Hadoop Cluster
 ## Cluster architecture
 ![Cluster Architecture](assets/Hadoop_Cluster_Architecture.png)
@@ -27,3 +27,7 @@ Due to the size of the data being analyzed, queries can take a long time to run.
 - Loading the data into the HDFS in order to maximize efficiency
 - Partition by column using Parquet. The benefits of using parquet are that it saves on cloud storage space by using column-wide compression, and increased data performance throuh data skipping which fetch specific column values rather than the entire row of data. 
 # Improvements
+- Familiarize myself better with HiveQL syntax particularly. 
+- Add more worker nodes in order to enhance query execution time.
+- Further partitioning into buckets for more efficient queries.
+- Partion by country.
