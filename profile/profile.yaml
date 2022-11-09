@@ -56,9 +56,9 @@ jarvis_projects:
 #    # Focus on BSA work instead of development work
 #    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
     description: Partnered with London Gift Shop (LGS) to address stagnant wage growth from LGS in recent years. Requirements include a proof-of-concept analytics solution that will analyze customer shopping behaviour. Analyzed using Python, along with libraries such as Pandas, NumPy, SQLAlchemy and Matplotlib. Visualized the analysis using Jupyter Notebook. Data used for the project is sourced from a LGS' Azure SQL Server, and will be dumped into Jarvis' PostgreSQL data warehouse. The Jupyter Notebook and database are Dockerized. The analysis will be used by LGS' marketing team to create new marketing campaigns, and attract new customers.
-#  - name: "Hadoop"
-#    git_url: "/hadoop"
-#    description: ""
+  - name: "Hadoop"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_MiguelDario/tree/develop/hadoop"
+    description: Evaluated the performance of various Hadoop and is various components such as MapReduce, YARN, and HDFS. Provisioned a Hadoop Cluster using Dataproc consisting of 1 master node, and 2 worker nodes. Loaded the data into HDFS and, analyzed using Apache Hive. Performed various tasks on the data such as partitioning in order to optimize query performance, and compare execution time. Results are displayed in a Zeppelin Notebook.
 
 # List of personal or academic projects
 # Please focus on transferable skills, such as soft skills and data related skills
