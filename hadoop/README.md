@@ -27,7 +27,7 @@ Due to the size of the data being analyzed, queries can take a long time to run.
 - Loading the data into the HDFS in order to maximize efficiency
 - Partition by column using Parquet. The benefits of using parquet are that it saves on cloud storage space by using column-wide compression, and increased data performance throuh data skipping which fetch specific column values rather than the entire row of data. 
 # Improvements
-- Familiarize myself better with HiveQL syntax particularly. 
+- Familiarize myself better with HiveQL syntax such as SerDe and Partitions. 
 - Add more worker nodes in order to enhance query execution time.
 - Further partitioning into buckets for more efficient queries.
 - Partion by country.
