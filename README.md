@@ -6,7 +6,7 @@ My name is Miguel Dario, and I graduated from the Business Technology Management
 
 **Business Skills:** Documentation, Stakeholder Management, Presentation, Requirements Elicitation, Agile/Scrum, Leadership, Project Management, Time Management, Problem Solving, Communication
 
-**Technical Skills:** Data Analytics with Python, Tableau, and R, RDMBS/SQL, Git/Github, Google Workspace, Microsoft Windows, Microsoft Word, Microsoft PowerPoint, Microsoft Excel (Pivot Tables/Formulas), Linux/Bash, Microsoft Visio, UML, BPMN, Google Cloud Platform
+**Technical Skills:** Data Analytics with Python, Tableau, and R, RDMBS/SQL, Git/Github, Google Workspace, Microsoft Windows, Microsoft Word, Microsoft PowerPoint, Microsoft Excel (Pivot Tables/Formulas), Linux/Bash, Microsoft Visio, UML, BPMN, Google Cloud Platform, Hadoop
 
 ## Jarvis Projects
 
@@ -40,7 +40,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MiguelDari
 
 
 ## Miscellaneous
-- Python Bootcamp, Ryerosn University (2020)
+- Python Bootcamp, Ryerson University (2020)
 - Tableau Bootcamp, Ryerson University (2020)
 - R Bootcamp, Ryerson University (2020)
 - Power of Excel Bootcamp, Ryerson University (2020)
