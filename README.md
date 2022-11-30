@@ -6,7 +6,11 @@ I am a recent graduate from Ryerson University with a Bachelor of Commerce in Bu
 
 **Business Skills:** Documentation, Stakeholder Management, Presentation, Requirements Elicitation, Agile/Scrum, Leadership, Project Management, Time Management, Problem Solving, Communication
 
+<<<<<<< HEAD
 **Technical Skills:** Data Analytics with Python (Pandas, Numpy, Seaborn), Tableau, and R, RDMBS/SQL, Git/Github, Jupyter Notebook, Google Workspace, Microsoft 365 (Word, Excel, Powerpoint, Visio), Linux/Bash, Zeppelin Notebook, UML, BPMN, Google Cloud Platform, Hadoop
+=======
+**Technical Skills:** Data Analytics with Python(Pandas, Numpy, Seaborn), Tableau, and R, RDMBS/SQL, Git/Github, Jupyter Notebook, Google Workspace, Microsoft 365 (Word, Excel, Powerpoint, Visio), Linux/Bash, Zeppelin Notebook, UML, BPMN, Google Cloud Platform, Hadoop
+>>>>>>> feature/profile
 
 ## Jarvis Projects
 
@@ -32,7 +36,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MiguelDari
 
 ## Professional Experiences
 
+<<<<<<< HEAD
 **Business Systems Analyst, Jarvis Consulting (July 2022 - Present)**: Collaborated with a team of 8 software developers in an Agile environment through daily standup meetings and 2 week sprints. Project progess, daily goals, and current impediments were discussed with the team during each daily meeting. Met with stakeholders, gathered requirements, and prepared documentation for projects implemented using technologies such as Linux, Python, SQL, and Hadoop . Project information can be found under "Highlighted Projects."
+=======
+**Business Systems Analyst, Jarvis Consulting (July 2022 - Present)**: Collaborated with a team of 8 software developers in an Agile environment through daily standup meetings and 2 week sprints. Project progess, daily goals, and current impediments were discussed with the team during each daily meeting. Met with stakeholders, gathered requirements, and prepared documentation for projects implemented using technologies such as Linux, Python, SQL, and Hadoop. Project information can be found under "Highlighted Projects."
+>>>>>>> feature/profile
 
 **Technology Alignment Intern, Manawa Networks (Sep 2021 - Jan 2022)**: Documented IT systems and standards for over 25 clients across various industries, Attended regular inter-department meetings with internal, and external stakeholders to review current company standards, and suggest improvements in IT processes. Developed project management, and leadership skills through leading a project to migrate over 120 users to 2-factor authentication. Demonstrated problem-solving skills by providing technical assistance, and support by phone to end users in a friendly, and professional manner.
 
