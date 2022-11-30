@@ -22,6 +22,10 @@
       "name": "Final Year Capstone Project"
     },
     {
+      "description": "Designed an IS solution with a group of 6 students for a fictitious tool rental company to meet business needs. Elicited requirements from product owner which was to ensure the flexibility to meet the rental needs of major construction companies. Utilized Visio to design business process maps, and diagrams using BPMN, and UML standards to visualize the new IS solution. Conceptualized use cases using the user story method. Regularly met with project sponsor to update on project milestones, and discuss improvements in final product. Presented the final product to the product owner.",
+      "name": "Final Year Capstone Project"
+    },
+    {
       "description": "Utilized R to analyze a dataset for a fictitious Portuguese bank to predict whether a client will subscribe to a term deposit. Explored the data by plotting graphs representing customer age, and contact duration distribution. Analyzed the dataset using K nearest, and decision trees. Wrote a report outlining, the project objective, learning methods used, and findings in the data. Presented to the class using Google Slides.",
       "name": "Business Intelligence and Analytics Final Course project"
     },
@@ -74,11 +78,7 @@
   "professional_experience": [
     {
       "company": "Jarvis Consulting",
-<<<<<<< HEAD
-      "description": "Collaborated with a team of 8 software developers in an Agile environment through daily standup meetings and 2 week sprints. Project progess, daily goals, and current impediments were discussed with the team during each daily meeting. Met with stakeholders, gathered requirements, and prepared documentation for projects implemented using technologies such as Linux, Python, SQL, and Hadoop . Project information can be found under \"Highlighted Projects.\"",
-=======
       "description": "Collaborated with a team of 8 software developers in an Agile environment through daily standup meetings and 2 week sprints. Project progess, daily goals, and current impediments were discussed with the team during each daily meeting. Met with stakeholders, gathered requirements, and prepared documentation for projects implemented using technologies such as Linux, Python, SQL, and Hadoop. Project information can be found under \"Highlighted Projects.\"",
->>>>>>> feature/profile
       "duration": "July 2022 - Present",
       "title": "Business Systems Analyst"
     },
@@ -103,11 +103,7 @@
       "Communication"
     ],
     "Technical Skills": [
-<<<<<<< HEAD
-      "Data Analytics with Python (Pandas, Numpy, Seaborn), Tableau, and R",
-=======
       "Data Analytics with Python(Pandas, Numpy, Seaborn), Tableau, and R",
->>>>>>> feature/profile
       "RDMBS/SQL",
       "Git/Github",
       "Jupyter Notebook",

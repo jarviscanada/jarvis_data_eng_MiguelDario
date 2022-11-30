@@ -29,11 +29,7 @@ skills:
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
   Technical Skills:
-<<<<<<< HEAD
-    - Data Analytics with Python (Pandas, Numpy, Seaborn), Tableau, and R
-=======
     - Data Analytics with Python(Pandas, Numpy, Seaborn), Tableau, and R
->>>>>>> feature/profile
     - RDMBS/SQL
     - Git/Github
     - Jupyter Notebook
@@ -93,11 +89,7 @@ professional_experience:
   - title: "Business Systems Analyst"
     company: "Jarvis Consulting"
     duration: "July 2022 - Present"
-<<<<<<< HEAD
-    description: Collaborated with a team of 8 software developers in an Agile environment through daily standup meetings and 2 week sprints. Project progess, daily goals, and current impediments were discussed with the team during each daily meeting. Met with stakeholders, gathered requirements, and prepared documentation for projects implemented using technologies such as Linux, Python, SQL, and Hadoop . Project information can be found under "Highlighted Projects."
-=======
     description: Collaborated with a team of 8 software developers in an Agile environment through daily standup meetings and 2 week sprints. Project progess, daily goals, and current impediments were discussed with the team during each daily meeting. Met with stakeholders, gathered requirements, and prepared documentation for projects implemented using technologies such as Linux, Python, SQL, and Hadoop. Project information can be found under "Highlighted Projects."
->>>>>>> feature/profile
   - title: "Technology Alignment Intern"
     company: "Manawa Networks"
     duration: "Sep 2021 - Jan 2022"
