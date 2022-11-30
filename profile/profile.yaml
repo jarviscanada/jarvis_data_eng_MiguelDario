@@ -9,7 +9,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_MiguelDari
 # 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
 # 3) mention what kind of role you are looking for
 # 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
-summary: My name is Miguel Dario, and I am a recent graduate from Ryerson University with a Bachelor of Commerce in Business Technology Management. Throughout my education, I was exposed to business fields such as data analytics, project management, as well as languages such as Python, R, and SQL. I am currently a Business Systems Analyst trainee for Jarvis where I applied the skills I have learned in school in addition to gaining new ones, namely Hadoop, Linux, and Agile. I have previously worked as an intern for Manawa Networks where I developed strong stakeholder management skills through identifying gaps in client IT processes, and documenting IT standards. My passion, and ability to bridge the gap between technology and people make me a great fit for a Business Systems Analyst role.
+summary: I am a recent graduate from Ryerson University with a Bachelor of Commerce in Business Technology Management, where I was exposed to business fields such as data analytics, project management, as well as languages such as Python, R, and SQL. I am currently a Business Systems Analyst trainee for Jarvis where I applied the skills I have learned in work, and school such as requirements gathering, data concepts and documentation in addition to gaining new ones, namely Agile. I have previously worked as an intern for Manawa Networks where I developed strong stakeholder management skills through identifying gaps in client IT processes, and documenting IT standards. My passion, and ability to bridge the gap between technology and people make me a great fit for a Business Systems Analyst role.
 
 skills:
   # Please include 
@@ -29,16 +29,14 @@ skills:
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
   Technical Skills:
-    - Data Analytics with Python, Tableau, and R
+    - Data Analytics with Python (Pandas, Numpy, Seaborn), Tableau, and R
     - RDMBS/SQL
     - Git/Github
+    - Jupyter Notebook
     - Google Workspace
-    - Microsoft Windows
-    - Microsoft Word
-    - Microsoft PowerPoint
-    - Microsoft Excel (Pivot Tables/Formulas)
+    - Microsoft 365 (Word, Excel, Powerpoint, Visio)
     - Linux/Bash
-    - Microsoft Visio
+    - Zeppelin Notebook
     - UML
     - BPMN
     - Google Cloud Platform
@@ -64,6 +62,8 @@ jarvis_projects:
 # List of personal or academic projects
 # Please focus on transferable skills, such as soft skills and data related skills
 highlighted_projects:
+  - name: Final Year Capstone Project
+    description: Designed an IS solution with a group of 6 students for a fictitious tool rental company to meet business needs. Elicited requirements from product owner which was to ensure the flexibility to meet the rental needs of major construction companies. Utilized Visio to design business process maps, and diagrams using BPMN, and UML standards to visualize the new IS solution. Conceptualized use cases using the user story method. Regularly met with project sponsor to update on project milestones, and discuss improvements in final product. Presented the final product to the product owner.
     #project name
   - name: Business Intelligence and Analytics Final Course project
     #URL is optional
@@ -84,6 +84,10 @@ highlighted_projects:
 # Please focus on transferable skills, such as soft skills and data related skills
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
+  - title: "Business Systems Analyst"
+    company: "Jarvis Consulting"
+    duration: "July 2022 - Present"
+    description: Collaborated with a team of 8 software developers in an Agile environment through daily standup meetings and 2 week sprints. Project progess, daily goals, and current impediments were discussed with the team during each daily meeting. Met with stakeholders, gathered requirements, and prepared documentation for projects implemented using technologies such as Linux, Python, SQL, and Hadoop . Project information can be found under "Highlighted Projects."
   - title: "Technology Alignment Intern"
     company: "Manawa Networks"
     duration: "Sep 2021 - Jan 2022"
